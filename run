@@ -6,5 +6,5 @@ trap 'echo >&2 FATAL ERROR EXIT CODE $? AT $0:$LINENO' ERR
 mvn package
 
 # run using maven exec plugin: https://www.baeldung.com/maven-java-main-method
-mvn compile exec:java -Dexec.mainClass="com.paulfrischknecht.jnamvndemo.App"
+mvn compile exec:java -Dexec.mainClass="com.paulfrischknecht.jnamavendemo.App"
 
